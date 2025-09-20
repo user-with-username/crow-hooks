@@ -2,8 +2,7 @@ name: Publish lib to pypi
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ main ]
 
 jobs:
   deploy:
